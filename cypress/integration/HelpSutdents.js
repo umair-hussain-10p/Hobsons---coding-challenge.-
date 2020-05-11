@@ -4,7 +4,7 @@ describe('Help students on home screen', function() {
         .then((constants) => {
         //Visit the Website
         cy.visit(constants.HobsonsWebsite)
-     })
+    })
 })
   
     it ('Actions on home screen', function(){
