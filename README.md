@@ -15,9 +15,13 @@ Goto the command prompt and use following commands to setup the project; (Note: 
 2. npm install cypress --save-dev
 3. ./node_modules/.bin/cypress open
 4. Run the tests by clicking 'Run all specs' on Cypress
+5. Command to run and create mocha reports is ./node_modules/.bin/cypress run test
+6. Command to run in headlessmode is: ./node_modules/.bin/cypress run
+
+# REPORTS:
+Mochawesome integrated for creating html reports which can be access on \cypress\reports\mochareports\report.html
 
 # APPROACH:
-
 There is a **describe** function (as we are using Mocha framework) which work as a main and every test flow (mentioned in previous section) has its own **it** functions.
 
 # TOOLS:
