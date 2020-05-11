@@ -9,7 +9,7 @@ describe('Actions on Hamburger', function() {
 
     it ('Actions on Hamberger option', function(){
         //Click on the hamburger
-        cy.get('.menu').click({force:true});
+        cy.get('.menu').click();
         //Assert the sublist and Click Resources
         cy.get('nav ul li').contains('Resources').click();
         //Assertion of child-list of Resourcens 
