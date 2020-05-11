@@ -1,0 +1,25 @@
+{
+  "name": "hobsons---coding-challenge",
+  "version": "1.0.0",
+  "description": "This is a Hobsons coding challenge which is done my tester Umair Hussain. It contains automated flows from Hobsons website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umair-hussain-10p/Hobsons---coding-challenge.-.git"
+  },
+  "keywords": [
+    "HCC"
+  ],
+  "author": "Umair Hussain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umair-hussain-10p/Hobsons---coding-challenge.-/issues"
+  },
+  "homepage": "https://github.com/umair-hussain-10p/Hobsons---coding-challenge.-#readme",
+  "devDependencies": {
+    "cypress": "^4.5.0"
+  }
+}
