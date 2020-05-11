@@ -1,5 +1,5 @@
 node_modules/
 Cypress.code-workspace
 mochawesome-report/mochawesome.html
-cypress/videos/HelpSutdents.js.mp4
-cypress/videos/VisitEvents.js.mp4
+cypress/videos/
+cypress/reportmochawesome-report/
