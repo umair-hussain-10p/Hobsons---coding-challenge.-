@@ -10,14 +10,18 @@ Following are the scenarios for which the script is written;
   4. Navigate to Resources \&gt; Events. Assert that all events on the page occurs in the future. Note you do NOT need to apply the filters, just assert on the default list that is displayed.
 
 # PROJECT SETUP:
-Goto the command prompt and use following commands to setup the project; (Note: These commands are only for windows)
+Goto the command prompt and use following commands to setup the project;
 1. cd /your/project/path
 2. npm install cypress --save-dev
 3. ./node_modules/.bin/cypress open
 4. Run the tests by clicking 'Run all specs' on Cypress
+5. Command to run and create mocha reports is ./node_modules/.bin/cypress run test
+6. Command to run in headlessmode is: ./node_modules/.bin/cypress run
+
+# REPORTS:
+Mochawesome integrated for creating html reports which can be access on \cypress\reports\mochareports\report.html
 
 # APPROACH:
-
 There is a **describe** function (as we are using Mocha framework) which work as a main and every test flow (mentioned in previous section) has its own **it** functions.
 
 # TOOLS:
